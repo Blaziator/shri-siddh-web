@@ -1,0 +1,46 @@
+.story {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 80px;
+  padding: 80px 0;
+  padding-left: max(40px, calc((100vw - 1600px) / 2 + 40px));
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 80px;
+  gap: 16px;
+  max-width: 480px;
+}
+
+.eyebrow {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.title {
+  font-size: clamp(36px, 3vw, 66px);
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.body {
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.imageWrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+
+.image {
+  object-fit: cover;
+}
