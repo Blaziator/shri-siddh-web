@@ -1,0 +1,222 @@
+.hero {
+  position: relative;
+  min-height: 100vh;
+  color: #fff;
+  overflow: hidden;
+}
+
+.bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.bgImage {
+  object-fit: cover;
+  object-position: center;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.75) 0%,
+    rgba(0, 0, 0, 0.25) 50%,
+    rgba(0, 0, 0, 0.55) 100%
+  );
+}
+
+.inner {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 32px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.eyebrow {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.title {
+  font-size: clamp(38px, 4vw, 88px);
+  font-weight: 600;
+  line-height: 1.05;
+  max-width: 800px;
+}
+
+.subtext {
+  font-size: 16px;
+  line-height: 1.6;
+  opacity: 0.9;
+  max-width: 560px;
+}
+
+.actions {
+  display: flex;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.btnPrimary,
+.btnOutline {
+  padding: 14px 28px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.btnPrimary {
+  background: #fff;
+  color: #111;
+}
+
+.btnPrimary:hover {
+  background: #f1e8d2;
+}
+
+.btnOutline {
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  color: #fff;
+}
+
+.btnOutline:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 21px;
+}
+
+.booking {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #fff;
+  padding: 20px;
+  width: 100%;
+  max-width: 1000px;
+  color: #111;
+}
+
+.field {
+  flex: 1;
+}
+
+.input,
+.guestField {
+  height: 48px;
+  border: 1px solid #cfcfcf;
+  background: #fff;
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: #444;
+}
+
+.input {
+  width: 100%;
+  padding: 0 14px;
+}
+
+.guestField {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 14px;
+}
+
+.guestLabel {
+  font-size: 14px;
+  color: #444;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.counterBtn {
+  background: none;
+  border: none;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  color: #222;
+}
+
+.count {
+  min-width: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.whatsappBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 48px;
+  padding: 0 28px;
+  background: #3EBD4E; 
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: filter 0.2s ease;
+}
+
+.whatsappBtn:hover {
+  filter: brightness(0.92);
+}
+
+.ratings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.score {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.stars {
+  letter-spacing: 2px;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1.5px;
+  height: 1.5px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.ratingLogo {
+  height: 30px;
+  width: auto;
+}
