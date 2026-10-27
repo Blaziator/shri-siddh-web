@@ -3,6 +3,13 @@
 :root {
   --font-body: 'Mona Sans', sans-serif;
   --font-heading: 'Cormorant Garamond', serif;
+  --gold-gradient: linear-gradient(
+    90deg,
+    #E8BA65 0%,
+    #8B5E3C 33%,
+    #E6B964 66%,
+    #603913 100%
+  );
 }
 
 body {

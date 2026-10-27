@@ -1,0 +1,22 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 32px;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  white-space: nowrap;
+  background: var(--gold-gradient);
+  background-size: 200% 100%;
+  background-position: 0% 0%;
+  transition: background-position 0.4s ease;
+}
+
+.button:hover {
+  background-position: 100% 0%;
+}
