@@ -1,0 +1,64 @@
+.facilities {
+  padding: 100px 80px;
+}
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 45px;
+}
+
+.eyebrow {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: clamp(36px, 4vw, 56px);
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.intro {
+  max-width: 360px;
+  font-size: 13px;
+  line-height: 1.6;
+  text-align: right;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 24px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.imageWrap {
+  position: relative;
+  aspect-ratio: 1.5/2;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-size: 15px;
+  line-height: 1.6;
+}

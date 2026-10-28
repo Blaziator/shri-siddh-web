@@ -4,6 +4,7 @@ import Rooms from "@/components/Rooms/Rooms";
 import Services from "@/components/Services/Services";
 import Story from "@/components/Story/Story";
 import VideoBanner from "@/components/VideoBanner/VideoBanner";
+import Facilities from "@/components/Facilities/Facilities";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Services/>
       <Story/>
       <VideoBanner/>
+      <Facilities/>
     </>
   );
 }
