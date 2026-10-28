@@ -8,6 +8,7 @@ import Facilities from "@/components/Facilities/Facilities";
 import Reviews from "@/components/Reviews/Reviews";
 import Gallery from "@/components/Gallery/Gallery";
 import Journal from "@/components/Journal/Journal";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Reviews/>
       <Gallery/>
       <Journal/>
+      <Footer/>
     </>
   );
 }
