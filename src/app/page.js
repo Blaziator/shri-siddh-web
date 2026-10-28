@@ -5,6 +5,7 @@ import Services from "@/components/Services/Services";
 import Story from "@/components/Story/Story";
 import VideoBanner from "@/components/VideoBanner/VideoBanner";
 import Facilities from "@/components/Facilities/Facilities";
+import Reviews from "@/components/Reviews/Reviews";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Story/>
       <VideoBanner/>
       <Facilities/>
+      <Reviews/>
     </>
   );
 }
