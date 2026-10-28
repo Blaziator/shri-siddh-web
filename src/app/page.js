@@ -7,6 +7,7 @@ import VideoBanner from "@/components/VideoBanner/VideoBanner";
 import Facilities from "@/components/Facilities/Facilities";
 import Reviews from "@/components/Reviews/Reviews";
 import Gallery from "@/components/Gallery/Gallery";
+import Journal from "@/components/Journal/Journal";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Facilities/>
       <Reviews/>
       <Gallery/>
+      <Journal/>
     </>
   );
 }
