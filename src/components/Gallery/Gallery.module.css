@@ -1,0 +1,43 @@
+.gallery {
+  padding: 80px 80px;
+}
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.eyebrow {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 8px;
+}
+
+.title {
+  font-size: clamp(36px, 4vw, 56px);
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: clamp(220px, 20vw, 440px);
+  gap: 20px;
+}
+
+.item {
+  position: relative;
+  overflow: hidden;
+}
+
+.wide {
+  grid-column: span 2;
+}
+
+.image {
+  object-fit: cover;
+}
